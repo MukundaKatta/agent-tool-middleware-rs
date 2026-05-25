@@ -1,0 +1,13 @@
+[package]
+name = "agent-tool-middleware"
+version = "0.1.0"
+edition = "2021"
+description = "Middleware pipeline for LLM agent tool call pre/post processing"
+license = "MIT"
+repository = "https://github.com/MukundaKatta/agent-tool-middleware-rs"
+keywords = ["llm", "agent", "middleware", "pipeline", "tools"]
+categories = ["development-tools"]
+exclude = ["target/*", ".github/*", "*.log"]
+
+[dependencies]
+serde_json = "1"
